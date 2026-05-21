@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: mlezcano-playground
-        image: mikelezc/playground:v2 #cambiamos esta linea para cambiar la version
+        image: mikelezc/playground:v1 #cambiamos esta linea para cambiar la version
         ports:
         - containerPort: 8888
 ---
