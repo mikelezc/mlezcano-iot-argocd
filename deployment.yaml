@@ -15,11 +15,11 @@ spec:
     spec:
       containers:
       - name: mlezcano-playground
-        image: mikelezc/playground:v2 #cambiar esto a v2 para cambiar la versión de la aplicación
+        image: mikelezc/playground:v1
         ports:
         - containerPort: 8888
 ---
-apiVersion: v1
+apiVersion: v2
 kind: Service
 metadata:
   name: mlezcano-playground
