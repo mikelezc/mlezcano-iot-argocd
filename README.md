@@ -1,4 +1,4 @@
-Este proyecto es parte del manifiesto usado por k3d 
+Este proyecto es el manifiesto usado por k3d 
 en el módulo /p3 del proyecto inception of things.
 
 Argo CD sincroniza desde aquí para desplegar
