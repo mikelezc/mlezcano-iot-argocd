@@ -13,14 +13,12 @@ spec:
       labels:
         app: playground
     spec:
-      imagePullSecrets:
-      - name: dockerhub-secret
       containers:
       - name: mlezcano-playground
-        image: mikelezc/playground:v2 # Para cambiar la versión ponemos este número en 1 o en 2
+        image: mikelezc/playground:v2
         env:
         - name: VERSION
-          value: "v2" # Para cambiar la versión ponemos este número en 1 o en 2
+          value: "v1" # Para cambiar la versión ponemos este número en 1 o en 2
         ports:
         - containerPort: 8888
 ---
